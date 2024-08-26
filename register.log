@@ -1,0 +1,2046 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:28] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:28] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:31] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:32] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:32] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:32] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:32] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:33] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:43] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:43] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:53] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:40:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:25] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:35] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:56] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:41:56] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:36] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:45] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:42:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:05] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:05] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:15] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:25] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:36] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:56] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:43:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:05] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:06] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:16] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:25] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:26] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:26] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:36] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:44:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:22] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:51] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:45:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\sqlite3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\sqlite3\\dbapi2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:43] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:56] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:46:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:36] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:47:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\models\\yolo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\models\\yolo\\model.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\local.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_wtf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_wtf\\form.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\choices.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\form.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\list.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\numeric.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\simple.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_bcrypt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\utils\\plotting.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\collections\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\imutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\imutils\\paths.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\PIL\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\PIL\\Image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\fpdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\fpdf\\fpdf.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:36] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:49] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:48:59] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:09] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:29] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:39] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:49] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:49:59] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:09] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:29] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\engine\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\nn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\nn\\tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\torch\\nn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\torch\\nn\\modules\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\torch\\nn\\modules\\module.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:54] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:50:59] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:09] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:29] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:39] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:51:54] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:03] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:09] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:36] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:52:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:53:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:56] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:56] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:54:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:55:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:56:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:57:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:58:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:48] "[32mGET /userMenu/?userName=edgar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:48] "GET /?next=/userMenu/?userName%3Dedgar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:48] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:48] "GET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:57] "[32mGET /index/Galera6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:57] "GET /?next=/index/Galera6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:57] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:57] "GET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 10:59:59] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:56] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:00:56] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\cpuinfo\\cpuinfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\multiprocessing\\process.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\multiprocessing\\spawn.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:01:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:24] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:32] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:32] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:33] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:33] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:33] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:35] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:35] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:35] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:35] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:36] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:36] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:47] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:02:59] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:02] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:31] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:35] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:36] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:36] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:36] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:36] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:37] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:37] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:47] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:03:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:39] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:04:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "[32mGET /i HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:25] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:26] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:30] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:31] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:31] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:31] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:31] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:31] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:40] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:42] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:52] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:05:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:02] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:02] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:13] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:14] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:23] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:39] "POST /_chickCount HTTP/1.1" 200 -
+ERROR:root:Error: database is locked. No se pudieron cargar los datos.
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:06:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:03] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:13] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:13] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:23] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:31] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:43] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:53] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:07:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:03] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:05] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:13] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:15] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:23] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:53] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:54] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:08:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:04] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:04] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:22] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:09:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:05] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:05] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:05] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:15] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:16] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:25] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:25] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:25] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:35] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:35] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:10:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:02] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:04] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:35] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:11:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:04] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:14] "POST /_chickCount HTTP/1.1" 200 -
+ERROR:root:Error: database is locked. No se pudieron cargar los datos.
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:22] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:12:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:09] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:13] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:29] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:31] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:39] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:49] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:56] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:13:59] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:03] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:09] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:11] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:11] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:11] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:12] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:12] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:23] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:23] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:23] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:43] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:14:56] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:13] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:14] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:53] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:15:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:03] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:13] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:14] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:34] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:16:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:35] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:45] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:17:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:05] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:06] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:15] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:16] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:26] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:36] "GET /get_NumCam HTTP/1.1" 200 -
+ERROR:root:Error: database is locked. No se pudieron cargar los datos.
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:42] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:45] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:46] "GET /get_NumCam HTTP/1.1" 200 -
+ERROR:root:Error: database is locked. No se pudieron cargar los datos.
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:56] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:18:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:06] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:16] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:26] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:31] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:36] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:56] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:19:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:06] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:34] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:20:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:29] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:39] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:52] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:21:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:25] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:22:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:14] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:25] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:23:56] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:04] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:04] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:13] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:16] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:22] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:26] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:51] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:24:55] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:12] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:23] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:31] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:51] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:25:51] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:02] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:51] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:26:51] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:05] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:23] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:35] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:27:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:13] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:14] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:34] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:28:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:44] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:29:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:15] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:23] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:25] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:35] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:45] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:45] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:30:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:05] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:05] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:15] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:25] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:25] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:25] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:35] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:35] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:36] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:31:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:45] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:55] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:32:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:02] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:06] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:08] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:14] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:31] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:33:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:36] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:42] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:34:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:19] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:30] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\database.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:55] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:35:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:00] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:10] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:20] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\json\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:39] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:36:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:37:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:38:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:39:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:40:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:41:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:00] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:00] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:10] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:10] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:20] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:21] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:31] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:51] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:51] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:42:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:21] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:30] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:30] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:30] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:40] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:40] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:50] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:43:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:05] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:14] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:14] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:23] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:36] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:44:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:14] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:39] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:43] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:44] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:54] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:45:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:03] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:20] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:23] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:44] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:45] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:56] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:46:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:36] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:49] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:55] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:47:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:06] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:16] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:24] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:34] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:34] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:34] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\mail-sender.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\mail.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\mailer.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\LoginForm.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\mail.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\mailer.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\User.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\validate_User.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\libraries\\YoloDetector.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\routers\\router_page_not_found.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:44] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:50] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:48:51] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:01] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:11] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:36] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:49:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:09] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:19] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:22] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:25] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:38] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:38] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:38] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:44] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:44] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:44] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:44] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:47] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:48] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:48] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:49] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:50] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:50] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:52] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:52] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:52] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:57] "GET /configForm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:57] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:50:57] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:00] "GET /cregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:00] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:00] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:03] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:03] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:03] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:09] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:12] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:15] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:15] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:15] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:18] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:21] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:23] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:23] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:23] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:27] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:27] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:27] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:30] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:31] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:31] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:31] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:32] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:32] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:42] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:42] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:50] "GET /genReportUser/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:52] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:51:52] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:02] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:02] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:12] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:22] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:22] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:22] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:32] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:42] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:42] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:42] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:52] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:52] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:52:52] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:02] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:02] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:02] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:12] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:12] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:44] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:45] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:45] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:45] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:45] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:45] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:55] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:56] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:53:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:06] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:11] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:16] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:26] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:26] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:26] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:36] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:54:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:13] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:21] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:21] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:30] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:30] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:40] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:54] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:55:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:09] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:13] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:24] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:32] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:44] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:44] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:44] "GET /genReportUser/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:53] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:53] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:56:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\sqlite3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\sqlite3\\dbapi2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\cv2\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:41] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:41] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:41] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:57:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:27] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:28] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:38] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\models\\yolo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\models\\yolo\\model.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\local.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_wtf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_wtf\\form.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\choices.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\form.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\list.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\numeric.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\fields\\simple.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\wtforms\\validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_bcrypt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\ultralytics\\utils\\plotting.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\collections\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\imutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\imutils\\paths.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\PIL\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\PIL\\Image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\fpdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\monza\\anaconda3\\envs\\yolov8\\Lib\\site-packages\\fpdf\\fpdf.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:55] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:58:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\Versiones\\Version_11\\pryChick.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:46] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:46] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:46] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:48] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:57] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 11:59:58] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:07] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:08] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:17] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:18] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:24] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:24] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:28] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:29] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:29] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:29] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:30] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:30] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:39] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:40] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:43] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:47] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:51] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:51] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:00:55] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:01] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:01] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:01] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:12] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:16] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:16] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:23] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:23] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:23] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:32] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:33] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:33] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:44] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:50] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:50] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:54] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:59] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:01:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:03] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:03] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:04] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:14] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:15] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:02:15] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-634-234
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:12:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:12:13] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:12:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:12:13] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 12:12:13] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-664-957
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:29:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:29:15] "GET /static/styles/mainSign.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:29:16] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:29:16] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:29:16] "GET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:32:41] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:32:41] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:32:41] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:32:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:32:41] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:36:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:36:56] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:36:56] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:36:56] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:36:56] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:13] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:13] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:13] "GET /?next=/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:28] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:28] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:28] "GET /static/styles/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:32] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:32] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:38:32] "[33mGET /pagenotfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:00] "GET /userMenu/?userName=admin1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:00] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:00] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:27] "GET /index/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:27] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:43] "GET /video HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:48] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:58] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:39:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:11] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:19] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:28] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:37] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:48] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:40:59] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:17] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:18] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:28] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:29] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:37] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:37] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:38] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:47] "GET /genReportUser/Galera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:47] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:47] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:49] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:57] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:57] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:41:58] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:07] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:07] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:08] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:17] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:18] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:24] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:27] "GET /get_NumCam HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:27] "POST /_chickDesc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:29] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:29] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:29] "POST /_chickCount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:37] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:37] "GET /adminMenu/?userName=admin1&userType=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:37] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:39] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:42:39] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:43:18] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:43:18] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+ERROR:root:Error: La contraseña debe tener al menos un simbolo $@#
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:44:04] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 09:44:04] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:45:33] "GET /register HTTP/1.1" 200 -
+ERROR:root:Error: La contraseña debe tener al menos un simbolo $@#
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:45:39] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:45:39] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:45:39] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+ERROR:root:Error: La contraseña debe tener al menos un simbolo $@#
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:47:22] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:47:22] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+ERROR:root:Error: El correo electrónico debe contener la extensión ".com", por favor introduzca un correo válido.
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:47:48] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:47:48] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:48:26] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:48:26] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:57:58] "GET /cregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 10:57:58] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:24:53] "GET /configForm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:24:53] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:30] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:30] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:54] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:25:54] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:26:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:26:25] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:26:25] "[36mGET /static/styles/LOGO_Monzad_PNG.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:26:54] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:26:54] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:27:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2024 13:27:16] "[36mGET /static/styles/mainSign.css HTTP/1.1[0m" 304 -

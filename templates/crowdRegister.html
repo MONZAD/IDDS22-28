@@ -1,0 +1,104 @@
+{% extends "dashboard.html" %} 
+{% block header %} 
+{{ super() }}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+{% endblock %} 
+{% block content %}
+<h1 class="text-center mt-5 mb-5 text-primary">Registros de galeras</h1>
+
+<div class="container">
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST"><!--action="{{url_for('register')}}"-->
+                <div class="row mb-3">
+                    <div class="col">
+                        <label>Nombre de la galera</label>
+                        <input type="text" class="form-control mb-3" name="crowdName">
+                    </div>
+                    <div class="col">
+                        <label>Enlace a las cámaras</label>
+                        <input type="text" class="form-control mb-3" name="crowdCameras">
+                    </div>
+                    <div class="col">
+                        <label>Cantidad de pollos</label>
+                        <input type="text" class="form-control mb-3" name="chickInitQuant">
+                    </div>
+                    <div class="col">
+                        <label>Propietario</label>
+                        <select id="utype" class="form-control mb-3" name="crowdUser">
+                            {% for data in crowdUser %}
+                            <option class="user_options" value="{{data}}">{{data}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col">
+                        <a href="{{url_for('register')}}">
+                            <button class="btn btn-primary mb-3 mt-4" type="submit" name="submit">Guardar</button>
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <!-- Tabla -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre de la galera</th>
+                        <th scope="col">Descripción de las cámaras</th>
+                        <th scope="col">Cantidad de pollos</th>
+                        <th scope="col">Nombre del propietario</th>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    {% for d in data %}
+                        <tr>
+                            <td>{{d.idCrowd}}</td>
+                            <td>{{d.crowdName}}</td>
+                            <td>{{d.crowdCameras}}</td>
+                            <td>{{d.chickInitQuant}}</td>
+                            <td>{{d.userName}}</td>
+                            <td><button class="btn btn-primary btn-sm" id="btn-edit{{d.idCrowd}}" data-bs-toggle="modal" data-bs-target="#modal{{d.idCrowd}}">Editar</button></td>
+                            <td><a href="{{url_for('deleteCrowd', id=d.idCrowd)}}" class="btn btn-danger btn-sm">Delete</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% for d in data %}
+                <!-- modal -->
+                <div class="modal fade" id="modal{{d.idCrowd}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">{{d.crowdName}}</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form method="POST" action="/updateCrowd/{{d.idCrowd}}">
+                                    <label>Nombre de la galera</label>
+                                    <input type="text" class="form-control mb-3" name="crowdNameedit" value="{{d.crowdName}}">
+                                    <label>Cámaras</label>
+                                    <input type="text" class="form-control mb-3" name="crowdCamerasedit" value="{{d.crowdCameras}}">
+                                    <label>Cantidad de pollos iniciales</label>
+                                    <input type="text" class="form-control mb-3" name="chickInitQuantedit" value="{{d.chickInitQuant}}">
+                                    <label>Propietario</label>
+                                    <select id="utype" class="form-control mb-3" name="useredit">
+                                        <option value="{{d.userName}}">{{d.userName}}</option>
+                                    </select>
+                                    <div class="modal-footer">
+                                        <!--<a class "btn" href="{{url_for('updateUser', id=d.id)}}">-->
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                        <!--</a>-->
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+   
+{% endblock %}

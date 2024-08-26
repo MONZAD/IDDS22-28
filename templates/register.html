@@ -1,0 +1,102 @@
+{% extends "dashboard.html" %} 
+{% block header %} 
+{{ super() }}
+{% endblock %} 
+{% block content %}
+<h1 class="text-center mt-5 mb-5 text-primary">Registros de usuarios</h1>
+
+<div class="container">
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label>Nombre de usuario</label>
+                        <input type="text" class="form-control mb-3" name="username">
+                    </div>
+                    <div class="col">
+                        <label>Contraseña</label>
+                        <input type="text" class="form-control mb-3" name="password">
+                    </div>
+                    <div class="col">
+                        <label>Correo electrónico</label>
+                        <input type="text" class="form-control mb-3" name="email">
+                    </div>
+                    <div class="col">
+                        <label>Tipo de usuario</label>
+                        <select id="utype" class="form-control mb-3" name="userType">
+                            <option value="admin">Admin</option>
+                            <option value="commonUs">Usuario común</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <a href="{{url_for('register')}}">
+                            <button class="btn btn-primary mb-3 mt-4" type="submit" name="submit">Guardar</button>
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <!-- Tabla -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre de usuario</th>
+                        <th scope="col">Contraseña</th>
+                        <th scope="col">Correo electrónico</th>
+                        <th scope="col">Tipo de usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in data %}
+                        <tr>
+                            <td>{{d.id}}</td>
+                            <td>{{d.username}}</td>
+                            <td>{{d.password}}</td>
+                            <td>{{d.email}}</td>
+                            <td>{{d.userType}}</td>
+                            <td><button class="btn btn-primary btn-sm" id="btn-edit{{d.id}}" data-bs-toggle="modal" data-bs-target="#modal{{d.id}}">Editar</button></td>
+                            <td><a href="{{url_for('deleteUser', id=d.id)}}" class="btn btn-danger btn-sm">Eliminar</a></td>
+                        </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+            {% for d in data %}
+                <!-- modal -->
+                <div class="modal fade" id="modal{{d.id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">{{d.username}}</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form method="POST" action="/updateUser/{{d.id}}">
+                                    <label>Nombre de usuario</label>
+                                    <input type="text" class="form-control mb-3" name="usernameedit" value="{{d.username}}">
+                                    <label>Contraseña</label>
+                                    <input type="text" class="form-control mb-3" name="passwordedit" value="{{d.password}}">
+                                    <label>Correo electrónico</label>
+                                    <input type="text" class="form-control mb-3" name="emailedit" value="{{d.email}}">
+                                    <label>Tipo de usuario</label>
+                                    <select id="utype" class="form-control mb-3" name="userTypeedit">
+                                        <option value="admin">Admin</option>
+                                        <option value="commonUs">Usuario común</option>
+                                    </select>
+                                    <div class="modal-footer">
+                                        <!--<a class "btn" href="{{url_for('updateUser', id=d.id)}}">-->
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                        <!--</a>-->
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+    
+{% endblock %}

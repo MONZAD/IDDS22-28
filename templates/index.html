@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Mobile Specific Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>MONZAD</title>
+    <!--CSS ============================================= -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" class="menuinput" name="" id="check">
+    <div class="container-menu">
+      <label for="check">
+        <span class="fas fa-times" id="times"></span>
+        <span class="fas fa-bars" id="bars"></span>
+      </label>
+      <div class="head" id="menuButton">menu</div>
+      <a href="{{url_for('logout')}}"><button class="buttonClose">Cerrar sesión</button></a>
+      <a href="{{url_for('genReportUser', crowd=crowd)}}"><button class="buttonCUReports">Generar reporte</button></a>
+    </div>
+    <section class="mainm">
+      <div class="menu-title">
+        <h1 class="title" align="center">PROYECTO MONZAD</h1>
+      </div>
+      {% block div_messages %}
+          <div class="div-messages">
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                {% for message in messages %}
+                  <p class="message_alert">{{ message }}</p>
+                {% endfor %}
+              {% endif %}
+            {% endwith %}
+          </div>
+      {% endblock %}
+      <div class="maindiv">
+        <div class="vsource">
+          <form method="GET">
+            <h1 class="h1CView" id="{{ crowd }}" value="{{ crowd }}">Nombre de la galera: {{ crowd }}</h1>
+          </form>
+          <div class="cameraPanel">
+            <h1 class="h1CView">Vista de la cámara: </h1>
+            <h1 id="numCam">Identificador de la cámara</h1>
+          </div>
+          <img class="videoSource" src="{{ url_for('video') }}" />
+        </div>
+        <div class="right-panel">
+          <div class="vConteo">
+            <h1 class="h1vConteo">Conteo de pollos</h1>
+            <div class="outer-wrapper">
+              <div class="table-wrapper">
+              <table id="tableCount" class="table_2">
+                <tr class="table_2__header">
+                  {% for headerCount in headingsCount %}
+                    <th class="table_2__cell">{{ headerCount }}</th>
+                  {% endfor %}
+                </tr>
+                {% for roW in dataCount %}
+                  <tr class="table_2__row">
+                    {% for cellr in roW %}
+                      <td class="table_2__cell">{{ cellr }}</td>
+                    {% endfor %}
+                  </tr>
+                {% endfor %}
+              </table>
+              </div>
+            </div>
+          </div>
+          <div class="vdescription">
+            <div>
+              <h1 class="h1vdescription">Listado de Pollos</h1>
+            </div>
+            <div class="outer-wrapper">
+              <div class="table-wrapper">
+                <table id="tableChickDesc" class="table_3">
+                  <tr class="table_3__header">
+                    {% for header in headings %}
+                      <th class="table_3__cell">{{ header }}</th>
+                    {% endfor %}
+                  </tr>
+                  {% for row in data %}
+                    <tr class="table_3__row">
+                      {% for cell in row %}
+                        <td class="table_3__cell">{{ cell }}</td>
+                      {% endfor %}
+                    </tr>
+                  {% endfor %}
+                </table>
+              </div>  
+            </div>
+          </div>
+      </div>
+    </section>
+    <script>
+      function getErrors() {
+          $.ajax({
+              url: '/dashboard',
+              type: 'GET',
+              success: function(response) {
+                  alert(response);
+                  var error = response.error;
+                  if(error != ""){
+                    alert(error);
+                  }
+              },
+          });
+      };
+      function updateHistory() {
+        // Send an AJAX request to update_table endpoint
+        fetch("/_chickDesc", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({}),
+        })
+        .then(response => response.json())
+        .then(data => {
+            $("tableChickDesc tr").remove();
+            // Update the table with the new data
+            var table = document.getElementById("tableChickDesc");
+            table.innerHTML = `
+                <tr>
+                    <th>ID</th>
+                    <th>CATEGORIA</th>
+                    <th>PRECISION</th>
+                </tr>
+            `;
+            data.forEach(entry => {
+                table.innerHTML += `
+                    <tr>
+                        <td>${entry.ID}</td>
+                        <td>${entry.CATEGORIA}</td>
+                        <td>${entry.PRECISION}</td>
+                    </tr>
+                `;
+            });
+        })
+        .catch(error => console.error("Error:", error));
+      };
+      function updateCount() {
+        // Send an AJAX request to update_table endpoint
+        fetch("/_chickCount", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({}),
+        })
+        .then(response => response.json())
+        .then(dataCount => {
+          $("tableCount tr").remove();
+            // Update the table with the new data
+            var table1 = document.getElementById("tableCount");
+            table1.innerHTML = `
+              <tr>
+                <th>Pollos detectados</th>
+                <th>Pollos no detectados</th>
+              </tr>
+            `;
+            dataCount.forEach(entry => {
+              table1.innerHTML += `
+                <tr>
+                  <td>${entry.CCHICKDETECTED}</td>
+                  <td>${entry.CCHICKNOTDETECTED}</td>
+                </tr>
+              `;
+            });
+        })
+        .catch(error => console.error("Error:", error));
+      };
+      toUpHis = setInterval(updateHistory, 10000); //toUpHis = setInterval(updateHistory, 1);//
+      //clearTimeout(toUpHis);
+      toUpCou = setInterval(updateCount, 10000);//toUpCou = setInterval(updateCount, 1);//
+      //clearTimeout(toUpCou);
+      function updateNumCam() {
+          $.ajax({
+              url: '/get_NumCam',
+              type: 'GET',
+              success: function(response) {
+                  var numCam = response.numCam;
+                  console.log(numCam);
+                  document.getElementById('numCam').innerText = numCam;
+              },
+              error: function(error) {
+                  console.log(error);
+              }
+          });
+      };
+      toUpdateNumCam = setInterval(updateNumCam, 10001);
+      </script>
+  </body>
+</html>

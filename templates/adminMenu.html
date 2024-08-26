@@ -1,0 +1,69 @@
+<!--https://www.youtube.com/watch?v=5Z8uE37UyK4-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Mobile Specific Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>MONZAD</title>
+    <!--CSS ============================================= -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" class="menuinput" name="" id="check">
+    <div class="container-menu">
+      <label for="check">
+        <span class="fas fa-times" id="times"></span>
+        <span class="fas fa-bars" id="bars"></span>
+      </label>
+      <div class="head" id="menuButton">menu</div>
+      <a href="{{url_for('logout')}}"><button class="buttonClose">Cerrar sesión</button></a>
+    </div>
+    <section class="mainm">
+        <div class="menu-title">
+            <h1 class="title" align="center">PROYECTO MONZAD</h1>
+        </div>
+        {% block div_messages %}
+          <div class="div-messages">
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                {% for message in messages %}
+                  <p class="message_alert">{{ message }}</p>
+                {% endfor %}
+              {% endif %}
+            {% endwith %}
+          </div>
+        {% endblock %}
+        <div class="maindiv">
+            <div class="maindivdash" id="content">
+              <div class="admin-title">
+                <h1 class="title" align="center">Bienvenido {{userName}}</h1>
+              </div>
+                <div class="userMenu">
+                  <a href="{{url_for('userMenu', userName=userName)}}">
+                    <div class="grid__item">
+                        <h2>
+                            Ver galeras
+                        </h2>
+                    </div>
+                  </a>
+                  <a href="{{url_for('dashboard')}}">
+                    <div class="grid__item">
+                        <h2>
+                            Ir al panel de configuración
+                        </h2>
+                    </div>
+                  </a>
+                </div>
+            </div>
+          </div>
+    </section>
+  </body>
+</html>

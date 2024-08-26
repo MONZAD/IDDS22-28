@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de sesión</title>
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css"/>
+        <link href="https://code.ionicframework.com/ionicons/1.4.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/mainSign.css') }}">
+    </head>
+    <body>
+        {% block div_messages %}
+          <div class="div-messages">
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                {% for message in messages %}
+                  <p class="message_alert">{{ message }}</p>
+                {% endfor %}
+              {% endif %}
+            {% endwith %}
+          </div>
+        {% endblock %} 
+        <div class="pageTitle">
+            <h1>Proyecto MONZAD</h1>
+            <h3>Página de inicio de sesión</h3>
+        </div>
+        <div class="signin cf">
+            <div class="avatar"></div>
+            <form method="POST">
+                <div class="inputrow">
+                    {{ form.hidden_tag() }}
+                    {{ form.username }}
+                    {{ form.password }}
+                    <a type="submit"> {{ form.submit }} </a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
